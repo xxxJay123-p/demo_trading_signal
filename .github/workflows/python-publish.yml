@@ -20,7 +20,7 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v3
       with:
-        python-version: '3.x'
+        python-version: "3.12"
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
@@ -32,4 +32,4 @@ jobs:
         OPEN_ID: ${{ secrets.OPEN_ID }}
         TEMP_ID: ${{ secrets.TEMPL_ID }}
       run: |
-        python my_script.py
+        python main.py
