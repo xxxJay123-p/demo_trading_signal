@@ -30,6 +30,6 @@ jobs:
         APP_ID: ${{ secrets.APP_ID }}
         APP_SECRET: ${{ secrets.APP_SECRET }}
         OPEN_ID: ${{ secrets.OPEN_ID }}
-        TEMP_ID: ${{ secrets.TEMP_ID }}
+        TEMP_ID: ${{ secrets.TEMPL_ID }}
       run: |
         python main.py
