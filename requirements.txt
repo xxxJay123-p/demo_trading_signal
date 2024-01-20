@@ -1,0 +1,8 @@
+requests
+json
+schedule
+yfinance
+pandas
+dotenv
+os
+numpy
