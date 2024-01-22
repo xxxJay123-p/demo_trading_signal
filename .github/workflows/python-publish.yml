@@ -25,7 +25,7 @@ jobs:
       run: |
        python -m pip install --upgrade pip
        pip install --upgrade setuptools
-       if [ -f requirements.txt ]; then pip install requests schedule yfinance pandas dotenv numpy; fi
+       if (Test-Path -Path requirements.txt) { pip install requests schedule yfinance pandas dotenv numpy; }
     - name: Publish package
       env:
         APP_ID: ${{ secrets.APP_ID }}
