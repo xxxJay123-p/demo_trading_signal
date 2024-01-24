@@ -1,8 +1,8 @@
-requests
-json
-schedule
-yfinance
-pandas
-dotenv
-os
-numpy
+# requests
+# jsons
+# schedule
+# yfinance
+# pandas
+# dotenv
+# os
+# numpy
